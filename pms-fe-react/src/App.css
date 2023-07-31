@@ -1,0 +1,72 @@
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: 300;
+}
+
+td,th{
+    padding: 12px !important;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+}
+
+.custom-modal{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.updform{
+    width: 40%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
+
+}
+
+.custom-toast{
+    width: 20%;
+    padding: 20px;
+    font-family:Segoe UI;
+    font-size: 18px;
+    position: fixed;
+    background-color: gray;
+    border-radius: 10px;
+    bottom: 5vh;
+    right: 5%;
+}
+
+.success
+{
+  background-color: lightgreen;
+  color: green;
+}
+
+.error{
+    background-color: #f08585;
+    color: red;
+}
