@@ -17,5 +17,5 @@ function App() {
    );
    
 }
-//exporting the route
+//exporting
 export default App;
